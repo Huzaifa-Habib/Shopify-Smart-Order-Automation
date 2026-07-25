@@ -130,12 +130,3 @@ order-auto-tagger/
 └── package.json
 ```
 
-## Recording the client-facing demo (Loom)
-
-1. Show `src/config/rules.js` — plain-English rule for VIP tagging, 3 lines.
-2. Place a test order over $200 in the dev store.
-3. Cut to Shopify Admin → Orders → show the `VIP` tag appearing within seconds.
-4. Cut to your terminal/log output showing the webhook received → rule matched → tag applied.
-5. Close with: "This runs on any order, any rule you define — no manual tagging, ever."
-
-Keep it under 90 seconds. The tag appearing live is the entire pitch.
