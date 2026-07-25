@@ -1,0 +1,26 @@
+{
+  "name": "order-auto-tagger",
+  "version": "1.0.0",
+  "description": "Auto-tags Shopify orders based on configurable rules, triggered via the orders/create webhook.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "register-webhook": "node scripts/registerWebhook.js",
+    "list-webhooks": "node scripts/listWebhooks.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "pino": "^9.3.2",
+    "pino-http": "^10.2.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "^11.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
